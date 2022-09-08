@@ -1,0 +1,23 @@
+## 파일 무시 (test.txt) 
+
+
+## 다음과 같은 확장자는 전체 무시  
+*.text 
+*.exe 
+*.zip
+*.log
+
+
+## 폴더 무시
+.vscode/
+.vs/
+Debug/
+Release/
+@Trash/
+x64/
+x32/
+ref/
+doc/
+.imgs/
+at32ide_atm32f403a/
+build/
