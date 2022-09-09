@@ -1,7 +1,7 @@
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR ARM)
 
-#set(ARM_TOOLCHAIN_DIR "D:/tools/gcc-arm-none-eabi-9-2020-q2-update-win32/bin")
+#set(ARM_TOOLCHAIN_DIR "C:/tools/gcc-arm-none-eabi-9-2020-q2-update-win32/bin")
 #if(DEFINED ENV{ARM_TOOLCHAIN_DIR})
 #set(ARM_TOOLCHAIN_DIR $ENV{ARM_TOOLCHAIN_DIR}/)
 #else()
@@ -11,6 +11,7 @@ set(CMAKE_SYSTEM_PROCESSOR ARM)
 #endif()
 #message("ARM_TOOLCHAIN_DIR $ENV{ARM_TOOLCHAIN_DIR}")
 set(BINUTILS_PATH ${ARM_TOOLCHAIN_DIR})
+
 
 find_program(CMAKE_MAKE_PROGRAM
   NAMES make
